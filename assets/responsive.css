@@ -1,0 +1,509 @@
+@media screen and (max-width: 991px) {
+    .header {
+        height: auto;
+    }
+
+    .hero {
+        padding-top: 50px;
+    }
+
+    .navbar-top {
+        display: none;
+    }
+
+    .navbar-bottom .logo {
+        max-width: 140px;
+    }
+
+    .navbar-bottom .dropdown {
+        display: none;
+    }
+
+    .fa-bars {
+        float: right;
+        padding: 20px;
+        display: block;
+        color: white;
+        font-size: 20px;
+    }
+
+    .offcanvas-start {
+        top: 80px;
+        background: linear-gradient(90deg, #7177E2 0%, #3FEF96 99.98%);
+    }
+
+    .offcanvas.show {
+        top: 80px;
+        background: linear-gradient(90deg, #7177E2 0%, #3FEF96 99.98%);
+    }
+
+    .offcanvas.show .offcanvas-header {
+        padding: 2rem;
+    }
+
+    .offcanvas-header .link {
+        width: 100px;
+        height: 40px;
+        display: flex;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-top: 25px;
+        line-height: 12px;
+        font-style: Medium;
+        align-items: center;
+        border-radius: 24px;
+        text-decoration: none;
+        font-family: 'Poppins';
+        justify-content: center;
+        border: 1px solid #FFFFFF;
+    }
+
+    .offcanvas-header i {
+        top: 10px;
+        right: 20px;
+        color: white;
+        font-size: 25px;
+        position: absolute;
+    }
+
+    .offcanvas-body .accordion-item {
+        border: none;
+        background: none;
+    }
+
+    .accordion-item button {
+        color: white;
+        font-weight: 600;
+        background: linear-gradient(90deg, #7177E2 0%, #3FEF96 99.98%);
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: white;
+        background: none;
+        box-shadow: none;
+    }
+
+    .accordion-button::after {
+        transform: rotate(270deg);
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        transform: rotate(360deg);
+    }
+
+    .accordion-collapse a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .modal-backdrop.show {
+        pointer-events: none;
+    }
+
+    .experimental-learning .left h6 {
+        font-size: 46px;
+    }
+
+    .experimental-learning .bg-image {
+        height: 455px;
+        max-width: 350px;
+        margin-top: 80px;
+    }
+
+    .experimental-learning .bg-image .image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .experimental-learning .box {
+        width: 120px;
+        height: 120px;
+    }
+
+    .experimental-learning #B1 {
+        top: 20px;
+        left: -20px;
+    }
+
+    .experimental-learning #B2 {
+        right: -25px;
+    }
+
+    .path .title {
+        height: 250px;
+        max-width: 700px;
+    }
+
+    .path .title h6 {
+        margin-bottom: 2rem;
+    }
+
+    .path .row-1-bg-image {
+        height: 380px;
+        max-width: 300px;
+    }
+
+    .path .box {
+        width: 120px;
+        height: 120px;
+    }
+
+    .path .box .image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .path .box h6 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .path #B3 {
+        top: 10px;
+    }
+
+    .path #B4 {
+        right: -50px;
+        bottom: 40px;
+    }
+
+    .path .right {
+        padding: 50px 0;
+    }
+
+    .path ul li {
+        font-size: 18px;
+    }
+
+    .path .left {
+        padding: 50px 0;
+    }
+
+    .path .row-2-bg-image {
+        height: 380px;
+        max-width: 300px;
+    }
+
+    .path #B6 {
+        top: 20px;
+        left: -70px;
+    }
+
+    .path #B7 {
+        right: -50px;
+        bottom: 40px;
+    }
+
+    .path #B8 {
+        left: -20px;
+    }
+
+    .lms-key .main-content {
+        justify-content: center;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+
+    .footer .bg-image {
+        height: 120px;
+    }
+
+    .footer h6 {
+        margin: 30px 0 30px 0;
+    }
+
+    .footer .play-image, .app-image {
+        height: 65px;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        min-height: 1200px;
+    }
+
+    .experimental-learning .bg-image {
+        height: 400px;
+        max-width: 300px;
+    }
+
+    .experimental-learning #B1 {
+        left: -40px;
+    }
+
+    .path .row-1-bg-image {
+        height: 450px;
+        max-width: 450px;
+    }
+
+    .path .box {
+        width: 120px;
+        height: 120px;
+    }
+
+    .path #B3 {
+        left: 0px;
+    }
+
+    .path #B4 {
+        right: 0px;
+    }
+
+    .path .row-2-bg-image {
+        height: 450px;
+        max-width: 450px;
+    }
+
+    .path #B6 {
+        left: -10px;
+    }
+
+    .path #B7 {
+        right: 0px;
+    }
+
+    .path #B8 {
+        left: 0px;
+        bottom: -30px;
+    }
+
+    .path .left p {
+        margin-bottom: 0px;
+    }
+
+    .footer .bg-image {
+        height: 80px;
+    }
+
+    .footer h6 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .hero {
+        min-height: 850px;
+        margin-bottom: 0px;
+    }
+
+    .navbar-bottom .logo {
+        height: 30px;
+        max-width: 100px;
+    }
+
+    .experimental-learning .left {
+        height: 260px;
+        padding: 30px 0;
+        max-width: 280px;
+    }
+
+    .experimental-learning .left h6 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .experimental-learning .left p {
+        font-size: 12px;
+        margin-top: 10px;
+        max-width: 295px;
+        margin-bottom: 20px;
+    }
+
+    .experimental-learning .left button {
+        width: 100px;
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .experimental-learning .bg-image {
+        width: 230px;
+        height: 300px;
+        margin-top: 0px;
+    }
+
+    .experimental-learning .bg-image .image {
+        width: 30px;
+        height: 30px;
+    }
+
+    .experimental-learning .box {
+        width: 80px;
+        height: 80px;
+    }
+
+    .experimental-learning .box h6 {
+        font-size: 9px;
+        margin-top: 5px;
+        line-height: 12px;
+    }
+
+    .path .title {
+        height: 200px;
+    }
+
+    .path .title h6 {
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: 0.5rem;
+    }
+
+    .path .title p {
+        font-size: 12px;
+    }
+
+    .path .row-1-bg-image {
+        height: 250px;
+        max-width: 230px;
+    }
+
+    .path .box {
+        width: 80px;
+        height: 80px;
+    }
+
+    .path .box .image {
+        width: 30px;
+        height: 30px;
+    }
+
+    .path .box h6 {
+        font-size: 9px;
+        margin-top: 5px;
+        line-height: 12px;
+    }
+
+    .path #B3 {
+        top: 15px;
+        left: -20px;
+    }
+
+    .path #B4 {
+        right: -25px;
+        bottom: 20px;
+    }
+
+    .path #B5 {
+        left: -10px;
+    }
+
+    .path .right, .path .left {
+        padding: 30px 0;
+    }
+
+    .path .right p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .path ul li {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .path .left p {
+        height: 50px;
+        font-size: 12px;
+        max-width: 350px;
+    }
+
+    .path .row-2-bg-image {
+        height: 300px;
+        max-width: 250px;
+    }
+
+    .path #B6 {
+        top: 30px;
+        left: -35px;
+    }
+
+    .path #B7 {
+        right: -25px;
+        bottom: 50px;
+    }
+
+    .path #B8 {
+        left: -10px;
+        bottom: -25px;
+    }
+
+    .lms-key {
+        padding: 70px 0;
+    }
+
+    .main-content .main-card {
+        width: 100%;
+        height: 100px;
+        max-width: 295px;
+    }
+
+    .main-card h6 {
+        font-size: 20px;
+        max-width: 295px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .main-card p {
+        font-size: 12px;
+        max-width: 295px;
+    }
+
+    .card-item .card-item-image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .card-item .card-item-text h6 {
+        font-size: 18px;
+    }
+
+    .card-item-text a {
+        font-size: 15px;
+    }
+
+    .footer {
+        margin-top: 10px;
+    }
+
+    .footer .bg-image {
+        height: 50px;
+    }
+
+    .footer .image {
+        width: 110px;
+        height: 30px;
+    }
+
+    .footer .description {
+        width: 295px;
+    }
+
+    .footer .description p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer .social-media {
+        margin: 20px 0;
+    }
+
+    .footer h6 {
+        font-size: 20px;
+    }
+
+    .footer ul li {
+        margin-bottom: 8px;
+    }
+
+    .footer ul li a {
+        font-size: 13px;
+    }
+
+    .footer .play-image, .app-image {
+        height: 50px;
+        max-width: 150px;
+    }
+}

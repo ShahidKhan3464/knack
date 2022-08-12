@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets//responsive.css">
+    <title>Knack</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar-top">
+            <ul class="navbar-items" style="list-style: none;">
+                <li class="item">
+                    <a class="link" href="#">Company</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#">Contact Sales</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#">Customer Support</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#">Login</a>
+                </li>
+            </ul>
+        </nav>
+
+        <i class="fa fa-bars" id="bars" aria-hidden="true" data-bs-target="#offcanvasExample" data-bs-toggle="offcanvas"
+            onclick="hide()">
+        </i>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <a href="#" class="link">Log In</a>
+                <a href="#" class="link">Try Now</a>
+                <i class="fa fa-times" aria-hidden="true" data-bs-dismiss="offcanvas" onclick="show()"></i>
+            </div>
+            <div class="offcanvas-body">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Solutions
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div>
+                                <a class="accordion-body">Key for K-12</a>
+                            </div>
+                            <div>
+                                <a class="accordion-body">Gate for business</a>
+                            </div>
+                            <div>
+                                <a class="accordion-body">Continous Education</a>
+                            </div>
+                            <div>
+                                <a class="accordion-body">Courses</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                Products
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div>
+                                <a class="accordion-body">Key for K-12</a>
+                            </div>
+                            <div>
+                                <a class="accordion-body">Gate for business</a>
+                            </div>
+                            <div>
+                                <a class="accordion-body">Continous Education</a>
+                            </div>
+                            <div>
+                                <a class="accordion-body">Courses</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                Customers
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div>
+                                <a class="accordion-body">Key for K-12</a>
+                            </div>
+                            <div>
+                                <a class="accordion-body">Gate for business</a>
+                            </div>
+                            <div>
+                                <a class="accordion-body">Continous Education</a>
+                            </div>
+                            <div>
+                                <a class="accordion-body">Courses</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                Resources
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div>
+                                <a class="accordion-body">Key for K-12</a>
+                            </div>
+                            <div>
+                                <a class="accordion-body">Gate for business</a>
+                            </div>
+                            <div>
+                                <a class="accordion-body">Continous Education</a>
+                            </div>
+                            <div>
+                                <a class="accordion-body">Courses</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <nav class="navbar-bottom">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Solutions
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Solution1</a></li>
+                        <li><a class="dropdown-item" href="#">Solution2</a></li>
+                        <li><a class="dropdown-item" href="#">Solution3</a></li>
+                    </ul>
+
+                    <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Products1</a></li>
+                        <li><a class="dropdown-item" href="#">Products2</a></li>
+                        <li><a class="dropdown-item" href="#">Products3</a></li>
+                    </ul>
+                    <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Customers
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Customers1</a></li>
+                        <li><a class="dropdown-item" href="#">Customers2</a></li>
+                        <li><a class="dropdown-item" href="#">Customers3</a></li>
+                    </ul>
+
+                    <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Resources
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Resources1</a></li>
+                        <li><a class="dropdown-item" href="#">Resources2</a></li>
+                        <li><a class="dropdown-item" href="#">Resources3</a></li>
+                    </ul>
+                    <a href="#" class="tryBtn">Try Now</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <section class="experimental-learning">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="left">
+                            <h6>Helping You Find Your Knak Through Experiential Learning</h6>
+                            <p>Teaching Relevant Education and Life Skills For Young People and Kids</p>
+                            <button>CALL US TODAY</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bg-image">
+                            <div id="B1" class="box">
+                                <div class="image">
+                                    <img src="assets/images/icon.png" alt="icon">
+                                </div>
+                                <h6>certificate courses</h6>
+                            </div>
+                            <div id="B2" class="box">
+                                <div class="image">
+                                    <img src="assets/images/icon2.png" alt="icon">
+                                </div>
+                                <h6>career development</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="path">
+        <div class="container">
+            <div class="title">
+                <h6>Find your Knak choose your Path</h6>
+                <p>This course was selected for our collection of top-rated courses trusted by businesses worldwide.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row-1-bg-image">
+                        <div id="B3" class="box">
+                            <div class="image">
+                                <img src="assets/images/icon3.png" alt="icon">
+                            </div>
+                            <h6>certificate courses</h6>
+                        </div>
+                        <div id="B4" class="box">
+                            <div class="image">
+                                <img src="assets/images/icon4.png" alt="icon">
+                            </div>
+                            <h6>creative tools</h6>
+                        </div>
+                        <div id="B5" class="box">
+                            <div class="image">
+                                <img src="assets/images/icon5.png" alt="icon">
+                            </div>
+                            <h6>career development</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right">
+                        <p>
+                            Empowering students for <b>Future</b> career choices in the most innovative courses taught
+                            by some of the industries most recognizable experts.
+                        </p>
+                        <ul>
+                            <li>certificate courses</li>
+                            <li>creative tools</li>
+                            <li>career development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left">
+                        <p>Our EdTech team provides 360 (degree) coverage for all you educational needs.</p>
+                    </div>
+                    <ul>
+                        <li>courses</li>
+                        <li>learning management system</li>
+                        <li>curriculum development</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="row-2-bg-image">
+                        <div id="B6" class="box">
+                            <div class="image">
+                                <img src="assets/images/icon3.png" alt="icon">
+                            </div>
+                            <h6>courses</h6>
+                        </div>
+                        <div id="B7" class="box">
+                            <div class="image">
+                                <img src="assets/images/icon4.png" alt="icon">
+                            </div>
+                            <h6>learning management system</h6>
+                        </div>
+                        <div id="B8" class="box">
+                            <div class="image">
+                                <img src="assets/images/icon5.png" alt="icon">
+                            </div>
+                            <h6>curriculum</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lms-key">
+        <div class="container">
+            <div class="main-content">
+                <div class="main-card">
+                    <h6>The LMS is is the KEY</h6>
+                    <p>The LMS is is the KEY to your GATE to unlock your Vision</p>
+                </div>
+                <div class="card-item">
+                    <div class="card-item-image">
+                        <img src="assets/images/key.png" alt="key">
+                    </div>
+                    <div class="card-item-text">
+                        <h6>LMS</h6>
+                        <a href="#" style="color: #7177E2">Learn more</a>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="card-item-image">
+                        <img src="assets/images/gate.png" alt="gate">
+                    </div>
+                    <div class="card-item-text">
+                        <h6>LMS</h6>
+                        <a href="#" style="color: #3FEF96">Learn more</a>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="card-item-image">
+                        <img src="assets/images/vision.png" alt="vision">
+                    </div>
+                    <div class="card-item-text">
+                        <h6>LMS</h6>
+                        <a href="#" style="color: #FFD600">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="bg-image"></div>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-5">
+                    <div class="image">
+                        <img src="assets/images/knack.png" alt="knack">
+                    </div>
+                    <div class="description">
+                        <p>Top companies choose Kluk Business to build in-demand career skills.</p>
+                        <div class="social-media">
+                            <a href="#"><img src="assets/images/facebook.png" alt="facebook"></a>
+                            <a href="#"><img src="assets/images/twitter.png" alt="twitter"></a>
+                            <a href="#"><img src="assets/images/Telegram.png" alt="Telegram"></a>
+                            <a href="#"><img src="assets/images/Reddit.png" alt="Reddit"></a>
+                            <a href="#"><img src="assets/images/youtube.png" alt="youtube"></a>
+                            <a href="#"><img src="assets/images/Linkedin.png" alt="Linkedin"></a>
+                        </div>
+                        <p> <b>2021</b> @ copyrights, all right reserved.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <h6>Explore</h6>
+                    <ul>
+                        <li><a href="#home">Knak Business</a></li>
+                        <li><a href="#home">Teach on Knak</a></li>
+                        <li><a href="#home">Get the app</a></li>
+                        <li><a href="#home">About us</a></li>
+                        <li><a href="#home">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6>About</h6>
+                    <ul>
+                        <li><a href="#home">FAQs</a></li>
+                        <li><a href="#home">Support</a></li>
+                        <li><a href="#home">Blog</a></li>
+                        <li><a href="#home">Docs</a></li>
+                        <li><a href="#home">Newsletter</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6>Download App</h6>
+                    <div class="play-image">
+                        <img src="assets/images/play-store.png" alt="playstore">
+                    </div>
+                    <div class="app-image">
+                        <img src="assets/images/apple-store.png" alt="apple">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <script>
+        function hide() {
+            document.getElementById("bars").style.display = "none";
+        }
+
+        function show() {
+            document.getElementById("bars").style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>
